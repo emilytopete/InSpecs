@@ -1,0 +1,42 @@
+body {
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    width: 100%;
+  }
+  
+  .input-wrapper {
+    display: block;
+    font-family: monospace;
+    font-size: 125%;
+    width: 50%;
+    > input,
+    > .placeholder {
+      display: block;
+      appearance: none;
+      width: 100%;
+      height: 100%;
+      background-color: transparent;
+      border: none;
+    }
+    > .placeholder {
+      pointer-events: none;
+      @include typed(
+        "How many moments of doubt must you conquer before you believe in your own potential?","How many times must you prove your worth before equality is achieved?", "How many challenges must you face before you realize your own strength?", "How many lines of code must you write before your voice is heard?", "How many moments of doubt must you conquer before you believe in your own potential?", "How many obstacles must you navigate before you pave the way for others?",
+        1.5,
+        (
+          caret-width: 2px,
+          caret-space: 2px
+        )
+      );
+    }
+    > input {
+      &:focus,
+      &:active {
+        + .placeholder {
+          display: none;
+        }
+      }
+    }
+  }
+  
