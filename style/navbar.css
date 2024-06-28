@@ -6,7 +6,9 @@ nav {
     align-items: center;
     justify-content: space-between;
     padding: 0 2rem;
-    position: relative;
+    position: fixed; /* Changed from relative to fixed */
+    top: 0; /* Ensures the nav bar is at the top */
+    width: 100%; /* Makes sure it spans the full width of the page */
     z-index: 100;
 }
 
