@@ -1,10 +1,21 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.5;
-    background-color: #f7f7f7;
+    background-color: black;
     font-size: 16px;
     margin: 0;
     padding-top: 70px; /* Adjust for the fixed nav bar height */
+}
+
+.intro {
+    background-color: #899D5E;
+    background-size: cover;
+    min-height: 70%;
+}
+.intro h1 {
+    color: whitesmoke;
+    font-size: 4rem;
+    text-align: center;
 }
 
 .marquee-container {
