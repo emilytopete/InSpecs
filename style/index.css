@@ -11,11 +11,13 @@ body {
     background-color: #899D5E;
     background-size: cover;
     min-height: 70%;
+    padding: 3vw;
 }
 .intro h1 {
     color: whitesmoke;
     font-size: 4rem;
-    text-align: center;
+    align-items: center;
+    margin-right: 30%;
 }
 
 .marquee-container {
