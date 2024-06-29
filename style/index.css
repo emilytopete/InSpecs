@@ -43,6 +43,7 @@ body {
     margin: 0;
     white-space: nowrap; /* Ensure quotes do not wrap */
     padding:  10px 10px; /* Adjust spacing between quotes */
+    color: #2B7180;
 }
 
 .quote-divider {
