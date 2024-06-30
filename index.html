@@ -9,6 +9,7 @@
         <link rel="stylesheet" href="./style/navbar.css" />
         <link rel="stylesheet" href="./style/index.css" />
         <script src="scripts/script.js"></script> <!---JS file-->
+        <script src="https://kit.fontawesome.com/db85cd2091.js" crossorigin="anonymous"></script> <!--Icons-->
         <title>InSpecs</title>
     </head>
 
@@ -18,7 +19,6 @@
                 <img class="logo" src="./images/InSpcecs CS.png" alt="InSpecs Logo" />
                 <img class="name" src="./images/InSpecs Brand.png" alt="InSpecs Non-Profit Name" />
             </div>
-            <i class="fa fa-bars" aria-hidden="true"></i> <!-- Menu Icon -->
 
             <ul class="menu">
                 <li><a href="./index.html">Home</a></li>
@@ -36,7 +36,10 @@
         <div class="IamA">
             <h2>I am a</h2>
             <div class="dropdown">
-                <button onclick="myFunction()" class="dropbtn">Select</button>
+                <button onclick="myFunction()" class="dropbtn">
+                    Select
+                    <i class="fa-solid fa-chevron-down"></i>
+                </button>
                 <div id="myDropdown" class="dropdown-content">
                     <a href="#home">Student</a>
                     <a href="#about">Parent</a>

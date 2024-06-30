@@ -21,11 +21,11 @@ body {
 
 /*I am Selection*/
 .IamA {
+    background-color: aqua;
     display: flex;
     width: 50%;
-    background-color: bisque;
     margin: auto auto;
-    margin-bottom: 3vw;
+    margin-bottom: 8vw;
     margin-top: 2vw;
 
 }
@@ -33,24 +33,25 @@ body {
 .IamA h2{
     color: whitesmoke;
     font-size: 2vw;
-    padding-right: 2vw;
+    flex: 1;
 }
+
 .dropbtn {
     background-color: whitesmoke;
     color: #2B7180;
+    text-align: left;
     padding: 1vw;
     font-size: 1vw;
     cursor: pointer;
-    width: 500px;
-    border: 2px solid grey;
-    
+    border: 2px solid rgb(205, 205, 205);
+    height: 50px;
+    flex: 1;
 }
-  
-.dropdown {
-    position: relative;
-    display: inline-block;
+
+.icon {
+    font: var(fa-solid fa-chevron-down);
 }
-  
+
 .dropdown-content {
     display: none;
     position: absolute;
@@ -59,6 +60,7 @@ body {
     overflow: auto;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
+    width: 75%;
 }
   
 .dropdown-content a {
